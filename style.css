@@ -1,0 +1,258 @@
+body {
+    background-color: rgba(125, 116, 107, 0.215);
+    /* border: 2px solid black; */
+}
+
+#inp-div {
+    display: flex;
+    justify-content: center;
+}
+
+#backspace {
+    text-align: center;
+    width: 45px;
+    height: 59px;
+    border-radius: 0px;
+}
+
+#inp-box {
+    /* border: 2px solid black; */
+    width: 370px;
+    height: 50px;
+    font-size: 30px;
+    background-color: black;
+    color: rgb(208, 243, 243);
+}
+
+.inp {
+    margin: 2px;
+}
+
+#inp-box-sign {
+    width: 32px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.b-class {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px;
+    justify-content: center;
+    /* padding: 20px;*/
+}
+
+.btn-div {
+    /* border: 2px solid black; */
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    /* border: 2px solid black; */
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: rgb(237, 229, 245);
+}
+
+.btn:active {
+    background-color: blueviolet;
+}
+
+#backspace:hover {
+    background-color: red;
+    color: black;
+}
+
+#ac{
+    background-color: white;
+    color: rgb(252, 6, 6);
+}
+
+#ac:hover{
+    background-color: rgb(255, 5, 5);
+    color: black;
+}
+
+/* #ac:active {
+    background-color: rgb(193, 182, 182);
+    color: rgb(255, 255, 255);
+} */
+
+#equals {
+    background-color: rgb(20, 243, 243);
+}
+
+#equals:hover {
+    background-color: rgb(181, 228, 228);
+}
+
+#equals:active {
+    background-color: rgb(136, 182, 250);
+
+}
+
+@media (max-width:821px) and (min-width: 769px){
+    body {
+        background-color: blueviolet;
+    }
+    
+    .b-class {
+        display: grid;
+        grid-template-columns: 200px 200px 200px 174px;
+        justify-content: center;
+    }
+
+    #inp-box {
+        width: 86%;
+        height: 118px;
+        font-size: 47px;
+        background-color: black;
+        color: rgb(208, 243, 243);
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .btn {
+        /* border-radius: 100px; */
+        width: 171px;
+        height: 171px;
+        font-size: 88px;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    #backspace {
+        text-align: center;
+        width: 100px;
+        height: 122px;
+        border-radius: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+   
+}
+
+@media (max-width: 415px) and (min-width: 376px) {
+    body {
+        background-color: rgb(208, 234, 234);
+    }
+
+    .b-class {
+        display: grid;
+        grid-template-columns: 97px 97px 97px 88px;
+        justify-content: center;
+    }
+
+    #inp-box {
+        width: 306px;
+        height: 74px;
+        font-size: 47px;
+        background-color: black;
+        color: rgb(208, 243, 243);
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .btn {
+        /* border-radius: 100px; */
+        width: 79px;
+        height: 79px;
+        font-size: 45px;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    #backspace {
+        text-align: center;
+        width: 55px;
+        height: 80px;
+        border-radius: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+   
+}
+
+@media (max-width:376px) and (min-width: 281px) {
+    body {
+        background-color: aqua;
+    }
+
+    .b-class {
+        display: grid;
+        grid-template-columns: 90px 90px 90px 90px;
+        justify-content: center;
+    }
+
+    #inp-box {
+        width: 290px;
+        height: 44px;
+        font-size: 25px;
+        background-color: black;
+        color: rgb(208, 243, 243);
+    }
+
+    .btn {
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+        font-size: 34px;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    #backspace {
+        text-align: center;
+        width: 40px;
+        height: 53px;
+        border-radius: 0px;
+    }
+}
+
+
+@media (max-width: 281px) and (min-width: 0px){
+    body {
+        background-color: rgb(59, 151, 97);
+    }
+
+    .b-class {
+        display: grid;
+        grid-template-columns: 68px 68px 68px 77px;
+        justify-content: center;
+    }
+
+    #inp-box {
+        width: 219px;
+        height: 48px;
+        font-size: 25px;
+        background-color: black;
+        color: rgb(208, 243, 243);
+        margin-top: 10px;
+    }
+
+    .btn {
+        border-radius: 100px;
+        width: 63px;
+        height: 63px;
+        font-size: 32px;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    #backspace {
+        text-align: center;
+        width: 40px;
+        height: 53px;
+        border-radius: 0px;
+        margin-top: 10px;
+    }
+}
