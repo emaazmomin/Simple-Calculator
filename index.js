@@ -1,4 +1,7 @@
 let buttons = document.querySelectorAll('.btn');
+//delete this line this will error the code
+let button = document.querySelectorAll("btn");
+
 let inp = document.getElementById('inp-box');
 Array.from(buttons).forEach((btn) => {
     btn.addEventListener('click', (e) => {
